@@ -460,16 +460,16 @@ footer {
     font-size: 14px!important;
   }
   #myLinks {
-    width: 100%;
+    width: 75vw;
     background-color: #FFFFFF;
     z-index: 2;
-    height: 25vw;
+    height: 33vw;
     position: fixed;
     display: none;
     margin-top: 80px;
     overflow: hidden;
+    left: 0;
   }
-
   #hamburger {
     display: inline-block;
     content: url("../img/hamburger.svg");
