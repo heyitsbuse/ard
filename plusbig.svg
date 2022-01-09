@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>expand icon</title>
+    <g id="Services-Pg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-Pg-1440px-Desktop" transform="translate(-1281.000000, -1029.000000)">
+            <g id="Stacked-Group-2" transform="translate(64.000000, 993.000000)">
+                <g id="expand-icon" transform="translate(1217.000000, 36.000000)">
+                    <g id="Group-2" fill="#53B1B1">
+                        <circle id="Oval" cx="24" cy="24" r="24"></circle>
+                    </g>
+                    <path d="M24,13.5 L24,34.5 M13.5,24 L34.5,24" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
