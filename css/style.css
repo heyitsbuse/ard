@@ -76,9 +76,9 @@ header {
   margin: 0 auto;
   height: 80px;
   overflow: hidden;
-  display: flex;
   align-items: center;
   z-index: 3;
+  display:none;
 }
 
 /* Display none on mobile. */
@@ -97,11 +97,6 @@ header {
   float: left;
 }
 
-/* Display on mobile. */
-/* .hamburger {
-  display: none;
-  float: left;
-} */
 nav {
   display: inline-block;
   padding-top: 100px;
@@ -319,49 +314,44 @@ footer {
   width: calc(100% - 64px);
 }
 
+#hamburger {
+  display: none;
+}
+
 /* Override: On screens that are 1024px wide or less */
 @media screen and (max-width: 1024px) {
-
-  /* .hamburger {
-    display: inline-block !important;
-  } */
   nav {
     display: none;
   }
-
   .main-logo {
     display: none;
   }
-
   main {
     padding-top: 80px;
   }
-
+  .mobile-container {
+    display: flex;
+  }
   .xs-logo {
     display: block;
   }
-
   .mail {
     display: inline;
   }
-
   h1 {
     font-size: 20px;
     margin-top: 12px;
     margin-left: 24px;
     margin-right: 24px;
   }
-
   body {
     font-size: 14px;
   }
-
   p {
     margin-top: 4px;
     margin-left: 24px;
     margin-right: 24px;
   }
-
   .secondary-cta, .primary-cta {
     padding: 4px;
     width: 220px;
@@ -369,77 +359,58 @@ footer {
     border-width: 2px;
     font-size: 14px;
   }
-
-  /* main > div > img {
-    height: auto!important;
-    margin-left: 24px;
-    margin-right: 24px;
-    width: calc(100% - 48px)!important;
-  } */
   .home-img {
     height: auto !important;
     margin-left: 24px;
     margin-right: 24px;
     width: calc(100% - 48px) !important;
   }
-
   .featured-mobile1 {
     margin-left: 24px;
     margin-right: 24px;
     align-items: center;
   }
-
   picture>img {
     margin-left: 24px;
     margin-right: 24px;
     width: calc(100% - 48px) !important;
   }
-
   .wrapper>h1 {
     margin-left: 0;
     margin-right: 0;
     padding-top: 24px !important;
     padding-bottom: 24px !important;
   }
-
   .whyus {
     float: none !important;
     display: block !important;
     width: 100% !important;
   }
-
   .whyus>h2 {
     font-size: 14px;
     padding-top: 0 !important;
   }
-
   .whyus>p {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 48px;
   }
-
   #whyuslastchild>p {
     padding-bottom: 0px !important;
   }
-
   #wrapper2 {
     padding-bottom: 0px !important;
   }
-
   .partners {
     margin-left: 24px;
     margin-right: 24px;
     padding-top: 24px;
     width: calc(100% - 48px);
   }
-
   .partners > a > img {
     width: 75%;
     height: auto;
   }
-  }
-
   .parent, .value-parent {
     display: flex !important;
     align-items: center;
@@ -447,72 +418,55 @@ footer {
     align-content: center;
     flex-wrap: wrap;
   }
-
   .child>svg {
     position: relative !important;
   }
-
   .child>h2, .child>a, .value-child>h2 {
     font-size: 14px !important;
   }
-
   .value-child>h2 {
     padding-top: 24px !important;
   }
-
   .value-child>p {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-
   .copyright>p {
     font-size: 14px !important;
   }
-
   .child {
     flex-shrink: 0;
   }
-
   .header-2 {
     display: none !important;
   }
-
   #value-community {
     content: url("../img/small-community.svg");
   }
-
   #value-creativity {
     content: url("../img/small-creativity.svg");
   }
-
   #value-customer {
     content: url("../img/small-customer.svg");
   }
-
   .wrapper {
     padding-bottom: 24px;
   }
-
   .closewrap {
     padding-bottom: 24px !important;
   }
-
   .accordion-parent {
     width: calc(100% - 48px) !important;
   }
-
   .accordion {
     font-size: 14px;
   }
-
   .accordion:after {
     margin-top: -12px;
   }
-
   .featured-services-text {
     font-size: 14px !important;
   }
-
   #myLinks {
     width: 75vw;
     background-color: #FFFFFF;
@@ -524,12 +478,10 @@ footer {
     overflow: hidden;
     left: 0;
   }
-
   #hamburger {
     display: inline-block;
     content: url("../img/hamburger.svg");
   }
-
   #close_hamburger {
     display: none;
     content: url("../img/x-icon.svg");
