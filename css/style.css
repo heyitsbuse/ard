@@ -308,6 +308,17 @@ footer {
   display: none;
 }
 
+.partners {
+  display:flex;
+  justify-content: space-evenly;
+  max-width:1024px;
+  margin: 0 auto;
+  padding-top:40px;
+  background-color: #F2F2F2;
+  padding-top: 32px;
+  width: calc(100% - 64px);
+}
+
 /* Override: On screens that are 1024px wide or less */
 @media screen and (max-width: 1024px) {
 
@@ -419,8 +430,14 @@ footer {
   .partners {
     margin-left: 24px;
     margin-right: 24px;
-    padding-top: 24px !important;
-    width: calc(100% - 48px) !important;
+    padding-top: 24px;
+    width: calc(100% - 48px);
+  }
+
+  .partners > a > img {
+    width: 75%;
+    height: auto;
+  }
   }
 
   .parent, .value-parent {
@@ -639,14 +656,7 @@ footer {
   .partners {
     margin-left: 16px;
     margin-right: 16px;
-    width: calc(100% - 32px) !important;
-    display: flex;
-    align-items: center;
-  }
-
-  .partners>svg {
-    width: 33% !important;
-    margin: 0 auto;
+    width: calc(100% - 32px);
   }
 
   .parent {
