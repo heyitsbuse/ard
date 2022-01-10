@@ -1,15 +1,5 @@
 // This is our Javascript file. Here is where we define complex functionality.
 
-// This function adds hamburger menu functionality for mobile/tablet screens
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "inline-block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "inline-block";
-  }
-}
-
 // This function adds image click-through functionality for img 1 to img 2
 function change(){
   var img = document.getElementById("changeimg");
