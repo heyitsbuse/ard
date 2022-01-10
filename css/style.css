@@ -384,7 +384,8 @@ footer {
   .whyus {
     float: none !important;
     display: block !important;
-    width: 100% !important;
+    width: 50% !important;
+    margin: 0 auto;
   }
   .whyus>h2 {
     font-size: 14px;
@@ -393,7 +394,8 @@ footer {
   .whyus>p {
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 48px;
+    padding-bottom: 32px;
+    text-align: center;
   }
   #whyuslastchild>p {
     padding-bottom: 0px !important;
@@ -574,6 +576,9 @@ footer {
   .panel>ul {
     margin-top: 0;
   }
+  .whyus {
+    width: 80% !important;
+  }
 }
 
 /* Override: On screens that are 414px wide or less */
@@ -582,35 +587,29 @@ footer {
     padding-left: 16px;
     padding-right: 16px;
   }
-
   main>div>img {
     margin-left: 16px;
     margin-right: 16px;
     width: calc(100% - 32px) !important;
   }
-
   h1 {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   p {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   picture>img {
     margin-left: 16px;
     margin-right: 16px;
     width: calc(100% - 32px) !important;
   }
-
   .partners {
     margin-left: 16px;
     margin-right: 16px;
     width: calc(100% - 32px);
   }
-
   .parent {
     flex-wrap: wrap;
     width: calc(100% - 32px) !important;
@@ -618,62 +617,48 @@ footer {
     padding-top: 48px !important;
     padding-bottom: 48px !important;
   }
-
   #footer-services {
     order: 1;
   }
-
   #footer-about {
     order: 2;
   }
-
   #footer-logo {
     order: 3;
   }
-
   #footer-contact {
     order: 4;
   }
-
   #footer-logo {
     display: block;
   }
-
   .wrapper {
     padding-bottom: 16px;
   }
-
   .closewrap {
     padding-bottom: 16px !important;
   }
-
   .bio-mobile {
     display: block;
   }
-
   .bio-desktop {
     display: none;
   }
-
   .bio-mobile>img {
     width: 100%;
     height: 100%;
   }
-
   .bio-mobile>h2 {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   .generation {
     padding-bottom: 48px !important;
   }
-
   .featured-mobile1 {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   .home-img {
     height: auto !important;
     margin-left: 16px;
