@@ -334,9 +334,53 @@
   <main>
     <!--div that contains 1st copy widget-->
     <div style="padding-bottom: 48px;max-width:1024px;margin:0 auto;">
-      <img class="home-img" style="width:100%;height:100%;" src="img/color.png" alt="Color and Fabric Selection Image">
-      <h1 style="text-align: center">End-to-End Product Development</h1>
-      <p style="text-align: center">Launch your fashion line with confidence. Streamlining product development from concept to creation.</p>
+      <img class="home-img" style="width:100%;height:100%;" src="img/unsplashpic1.jpg" alt="Image Placeholder">
+      <h1 style="text-align: center">Streamlined Product Development</h1>
+      <p style="text-align: center">Optimizing apparel design processes from concept to creation. Fully-tailored to your business needs.</p>
+
+    </div>
+
+    <!--div that contains 1st copy widget with background wrapper-->
+    <div class="wrapper closewrap" style="padding-bottom: 48px;margin:0 auto;">
+      <h1 style="background-color: #F2F2F2;padding-top: 48px;padding-bottom: 48px;margin-top:0 !important;text-align: center;">3 Featured Services</h1>
+    </div>
+    <!--div that contains 2nd copy widget-->
+    <div class="featured-desktop" style="padding-bottom: 48px;max-width:1024px;margin:0 auto;text-align:center;">
+      <div style="width:33%;display:inline-block;">
+        <img class="services-img" style="display:inline-block;height:100%;width:100%;" src="img/collection.jpg" alt="Collection Design: Color and Fabric">
+        <h2 class="featured-services-text" style="margin-top:0;padding-top:16px;font-weight: 410;">COLLECTION DESIGN</h2>
+      </div>
+      <div style="width:33%;display:inline-block;">
+        <img class="services-img" style="display:inline-block;height:100%;width:100%;" src="img/techpack.jpg" alt="Tech Pack Creation and Management">
+        <h2 class="featured-services-text" style="margin-top:0;padding-top:16px;font-weight: 410;">TECH PACK MANAGEMENT</h2>
+      </div>
+      <div style="width:33%;display:inline-block;">
+        <img class="services-img" style="display:inline-block;height:100%;width:100%;" src="img/fit.jpg" alt="Supporting your Technical Design and Fit Needs">
+        <h2 class="featured-services-text" style="margin-top:0;padding-top:16px;font-weight: 410;">TECHNICAL FIT SUPPORT</h2>
+      </div>
+
+      <a href="services.html" style="text-decoration:none;" class="secondary-cta">CHECK OUT OUR SERVICES</a>
+    </div>
+
+    <div class="featured-mobile" style="padding-bottom: 48px;max-width:1024px;margin:0 auto;text-align:center;">
+      <img id="changeimg" onclick="change()" style="display:inline-block;height:100%;width:100%;" src="img/img1.png" alt="Collection Design: Color and Fabric">
+      <div class="featured-mobile1" style="display:flex;justify-content:space-between;">
+        <h2 id="services_txt" style="margin-top:0;padding-top:16px;font-weight: 410;">COLLECTION DESIGN</h2>
+        <svg onclick="change()" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Services-Pg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="ServicesPage_iPhone12Mini_1of3" transform="translate(-319.000000, -428.000000)">
+              <g id="Stacked-Group-2" transform="translate(0.000000, 80.000000)">
+                <g id="Group-15" transform="translate(319.000000, 348.000000)">
+                  <g id="Group-2" fill="#F2F2F2">
+                    <circle id="Oval" cx="16" cy="16" r="16"></circle>
+                  </g>
+                  <path d="M16,10 L22,16 M22,16 L16,22 M21,16 L10,16" id="Combined-Shape" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
       <a href="services.html" style="text-decoration:none;" class="secondary-cta">CHECK OUT OUR SERVICES</a>
     </div>
 
@@ -445,9 +489,9 @@
 
   <!--This points to your Javascript file which adds functionality to your site-->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
-  <script src="js/script_scroll.js"></script>
+  <script src="js/script_services.js"></script>
   <script src="js/script_hamburger.js"></script>
+  <script src="js/script_scroll.js"></script>
 </body>
 
 </html>
