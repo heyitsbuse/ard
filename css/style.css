@@ -83,7 +83,6 @@ header {
 
 /* Display none on mobile. */
 .main-logo {
-  display: inline-block;
   float: left;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -98,7 +97,6 @@ header {
 }
 
 nav {
-  display: inline-block;
   padding-top: 100px;
   padding-bottom: 100px;
   float: right;
@@ -731,3 +729,24 @@ footer {
     width: calc(100% - 32px) !important;
   }
 }
+
+.testimonial-parent {
+  max-width: 700px;
+  margin: auto;
+}
+
+.testimonial {
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-image {
+  height: 100px;
+  width: 100px;
+  filter: grayscale(100%);
+  border-radius: 50%;
+}
+
