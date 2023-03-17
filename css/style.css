@@ -748,5 +748,6 @@ footer {
   width: 100px;
   filter: grayscale(100%);
   border-radius: 50%;
+  padding-bottom: 8px;
 }
 
